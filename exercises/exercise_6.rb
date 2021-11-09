@@ -17,7 +17,7 @@ Employee.belongs_to :store
 # Add some data into employees. 
 @store1.employees.create(first_name: "Astarina", last_name: "Maulida", hourly_rate: 70)
 @store1.employees.create(first_name: "Marco", last_name: "Gamal", hourly_rate: 80)
-@store1.employees.create(first_name: "Kioko", last_name: "Khaleesha", hourly_rate: 60)
+@store1.employees.create(first_name: "Kioko", last_name: "Khaleesha", hourly_rate: 65)
 
 @store2.employees.create(first_name: "Sora", last_name: "Eugenie", hourly_rate: 50)
 @store2.employees.create(first_name: "Dewi", last_name: "Rahayu", hourly_rate: 60)
