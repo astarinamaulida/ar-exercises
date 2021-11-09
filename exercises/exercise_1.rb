@@ -23,3 +23,8 @@ store = Store.create(
   mens_apparel: true,
   womens_apparel: false
 )
+
+# Output (puts) the number of the stores using ActiveRecord's count method
+# To ensure that there are three stores in the database
+count = Store.count
+puts "There are #{count} stores in the database."
