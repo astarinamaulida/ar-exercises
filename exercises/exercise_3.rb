@@ -11,6 +11,6 @@ puts "----------"
 #Using Active Record's destroy method, delete the store from the database
 @store3.destroy
 
-#Verify that the store has been deleted by again outputting (putsing) the count (as you did in Exercise 1.)
+#Verify that the store has been deleted by again outputting (puts-ing) the count (as you did in Exercise 1.)
 count = Store.count
 puts "There are #{count} stores in the database."
